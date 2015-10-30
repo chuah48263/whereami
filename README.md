@@ -6,7 +6,7 @@
 
 Install `whereami` by issuing the following command in your teminal:
 ```
-git clone https://github.com/chuah48263/whereami.git ~/.whereami/ && chmod +x ~/.whereami/whereami && ln -s ~/.whereami/whereami /usr/local/bin/whereami
+$ git clone https://github.com/chuah48263/whereami.git ~/.whereami/ && chmod +x ~/.whereami/whereami && ln -s ~/.whereami/whereami /usr/local/bin/whereami
 ```
 
 # Usage
