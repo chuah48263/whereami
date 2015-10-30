@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+  real=$(pwd)
+  virtual=$(pwd -P)
+  if [ "$real" = "$virtual" ]; then
+    echo "Current dir:" "$real"
+    exit 0
+  else
+    echo "Symlink dir:" "$real"
+    echo "Target dir:" "$virtual"
+    exit 0
+  fi
+else
+  echo "-bash: whereami: invalid operation"
+  exit 1
+fi
