@@ -1,6 +1,6 @@
 # whereami
 
-`whereami` is a command tool to avoid confusion between real and virtual directories.
+`whereami` is a bash command similar to `pwd` to avoid confusion between real and virtual (symlink) directories.
 
 # Installation
 
